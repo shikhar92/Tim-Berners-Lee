@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding-top: 650px;
+    text-align: center;
+}
+
+.photo {
+    width: 240px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-top: 100px;
+
+}
+
+.links:hover {
+    background-color: chartreuse;
+
+
+}
+
+.menu {
+    z-index: 10;
+    list-style: none;
+    right: 30px;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    margin-top: 0;
+
+
+
+
+
+}
+
+.links {
+    color: cyan;
+    font-weight: bold;
+    float: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    background-color: azure;
+
+
+
+
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    background: linear-gradient(turquoise 20%, plum 79%, cyan 1%);
+    height: 100%;
+    z-index: 9;
+
+}
+
+.introduction {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+
+
+
+}
+
+#bio {
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(pink 50%, #fed8b1 50%)
+}
+
+.line {
+    background-color: darkblue;
+    width: 100px;
+    height: 5px;
+    margin: 8px auto
+}
+
+p {
+    font-size: 20px;
+    color: darkgreen;
+    max-width: 1300px;
+    font-family: fantasy;
+    margin: 25px auto;
+
+
+
+}
